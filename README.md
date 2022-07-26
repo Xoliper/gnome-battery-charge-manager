@@ -10,7 +10,18 @@ This method, requires permission and ownership change of those files, thus we ha
 
 This package can be integrated with gnome-control-center or gnome-shell (for example via plugin).
 Those integrations were proposed to GNOME team to review (and i hope they will be implemented).
+
+#### GNOME Control Center Integration
 For now you can compile my fork of [gnome-control-center](https://github.com/Xoliper/gnome-control-center).
+<p align="center">
+  <img width="627" height="180" src="./assets/gnome-control-center-integration-preview.png">
+</p>
+
+#### GNOME Shell Integration
+Or install GNOME Shell plugin.
+<p align="center">
+  Work in progress.
+</p>
 
 # Installation
 
