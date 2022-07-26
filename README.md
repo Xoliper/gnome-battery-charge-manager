@@ -14,17 +14,14 @@ For now you can compile my fork of [gnome-control-center](https://github.com/Xol
 
 # Installation
 
-## Dependences
-
-Straight from meson.build file:
+To build this project you will need following libraries and tools installed (versions below were tested, there is a chance lower versions will work):
 ```
   dependency('gio-2.0', version: '>= 2.72.3')
   dependency('libudev', version: '>= 251')
   meson_version: '>= 0.59.0',
 ```
-Those version were tested, but lower versions will probably work.
 
-## Build & Install
+### Build & Install
 
 This project is using meson build system, which is preffered by GNOME community.
 Follow instructions below to build it:
@@ -36,7 +33,7 @@ meson setup builddir && cd builddir
 ninja install
 ```
 
-## Uninstall
+### Uninstall
 
 In case of uninstalling this application, bacause of meson nature, we need to cleanup services manually:
 ```
