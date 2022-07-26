@@ -1,0 +1,9 @@
+[Unit]
+Description=Trigger power_supply subsystem.
+
+[Service]
+ExecStartPre=/bin/sleep 5
+ExecStart=udevadm trigger --attr-match='charge_control_end_threshold'
+
+[Install]
+WantedBy=multi-user.target

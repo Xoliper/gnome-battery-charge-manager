@@ -1,0 +1,1 @@
+SUBSYSTEM=="power_supply", ATTRS{charge_control_end_threshold}=="*", RUN+="/bin/bash -c 'chown nobody:nobody /sys$devpath/charge_control_end_threshold && chmod 666 /sys$devpath/charge_control_end_threshold'"

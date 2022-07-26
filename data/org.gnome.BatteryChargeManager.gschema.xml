@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist gettext-domain="gnome-battery-charge-manager">
+	<schema id="org.gnome.BatteryChargeManager" path="/org/gnome/BatteryChargeManager/">
+    <key name="battery-charge-threshold-enabled" type="b">
+      <default>false</default>
+      <summary>Prevents battery overcharge by limiting charge capacity to 80%. (works with kernels >= 5.4)</summary>
+      <description>Sets the battery maximum charge capacity to 80%, which may extend their life.</description>
+    </key>
+	</schema>
+</schemalist>

@@ -1,0 +1,12 @@
+[Unit]
+Description=Battery Charge Manager daemon.
+
+[Service]
+Type=simple
+ExecStart=/bin/gnome-battery-charge-manager
+Restart=always
+RestartSec=5s
+
+[Install]
+WantedBy=basic.target
+
