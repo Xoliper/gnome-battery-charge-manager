@@ -11,16 +11,16 @@ This method, requires permission and ownership change of those files, thus we ha
 This package can be integrated with gnome-control-center or gnome-shell (for example via plugin).
 Those integrations were proposed to GNOME team to review (and i hope they will be implemented).
 
-#### GNOME Control Center Integration
-For now you can compile my fork of [gnome-control-center](https://github.com/Xoliper/gnome-control-center).
+#### GNOME Shell Integration
+For now, non-invasive gnome-shell-extension integration is advised.  
 <p align="center">
-  <img width="627" height="180" src="./assets/gnome-control-center-integration-preview.png">
+  <img width="416" height="213" src="./assets/gnome-shell-integration-preview.png">
 </p>
 
-#### GNOME Shell Integration
-Or install GNOME Shell plugin.
+#### GNOME Control Center Integration
+Or, you can compile my fork of [gnome-control-center](https://github.com/Xoliper/gnome-control-center).
 <p align="center">
-  Work in progress.
+  <img width="627" height="180" src="./assets/gnome-control-center-integration-preview.png">
 </p>
 
 # Installation
