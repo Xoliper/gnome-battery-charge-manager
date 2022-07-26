@@ -12,7 +12,7 @@ This package can be integrated with gnome-control-center or gnome-shell (for exa
 Those integrations were proposed to GNOME team to review (and i hope they will be implemented).
 
 #### GNOME Shell Integration
-For now, non-invasive gnome-shell-extension integration is advised.  
+For now, non-invasive [gnome-battery-charge-shell-extension](https://github.com/Xoliper/gnome-battery-charge-shell-extension) integration is advised.  
 <p align="center">
   <img width="416" height="213" src="./assets/gnome-shell-integration-preview.png">
 </p>
