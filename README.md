@@ -18,7 +18,7 @@ For now, non-invasive [gnome-battery-charge-shell-extension](https://github.com/
 </p>
 
 #### GNOME Control Center Integration
-Or, you can compile my fork of [gnome-control-center](https://github.com/Xoliper/gnome-control-center).
+Or, you can compile my fork (or use preview release) of [gnome-control-center](https://github.com/Xoliper/gnome-control-center).
 <p align="center">
   <img width="627" height="180" src="./assets/gnome-control-center-integration-preview.png">
 </p>
