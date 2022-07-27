@@ -9,7 +9,7 @@ This method, requires permission and ownership change of those files, thus we ha
 # Integrations with GNOME
 
 This package can be integrated with gnome-control-center or gnome-shell (for example via plugin).
-Those integrations were proposed to GNOME team to review (and i hope they will be implemented).
+Those integrations were proposed to GNOME community to review (and i hope they will be in some way implemented in near future).
 
 #### GNOME Shell Integration
 For now, non-invasive [gnome-battery-charge-shell-extension](https://github.com/Xoliper/gnome-battery-charge-shell-extension) integration is advised.  
